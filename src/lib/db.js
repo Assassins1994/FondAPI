@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const connect = () =>  new Promise((resolve, reject) => {
-    mongoose.connect('mongodb://DanielOE:Petunia-1923@ds159737.mlab.com:59737/fondapi', {
+    mongoose.connect('mongodb://fondapiDan:Petunia-1923@ds159737.mlab.com:59737/fondapi', {
       useNewUrlParser: true 
     })
     const db = mongoose.connection
